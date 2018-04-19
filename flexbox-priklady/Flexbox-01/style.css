@@ -20,25 +20,3 @@
 }
 
 /* ---------------------------------------------------- */
-
-.kontejner {
-	display: flex;
-}
-
-.ctverecek {
-	flex-basis: 25%;
-	flex-grow: 1;
-}
-
-.ctverecek:nth-child(3) { order: 1; }
-
-
-
-
-/*
-.ctverecek:nth-child(3) {
-
-	align-self:stretch;
-}*/
-
-*/
