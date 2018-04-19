@@ -18,21 +18,27 @@ body {
 /* ---------------------------------------------------- */
 
 
-.kontejner {
-	display: flex;
+@media (min-width: 500px) {
+
+	.kontejner {
+		display: flex;
+	}
+
+	.levy {
+		order: 1;
+		width: 250px;
+	}
+
+	.hlavni {
+		order: 2;
+		flex: 1;
+	}
+
+	.pravy {
+		order: 3;
+		width: 150px;
+	}
+
 }
 
-.levy {
-	order: 1;
-	width: 250px;
-}
 
-.hlavni {
-	order: 2;
-	flex: 1;
-}
-
-.pravy {
-	order: 3;
-	width: 150px;
-}

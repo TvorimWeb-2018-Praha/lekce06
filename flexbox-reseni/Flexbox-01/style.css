@@ -25,25 +25,22 @@
 .kontejner {
 	display: flex;
 	flex-direction: row;
-	/*
 	justify-content: space-between;
 	align-items: center;
-	*/
 }
 .ctverecek {
+	text-align: center;
 	/*flex-grow: 1;*/
 }
 .jedna {
-	width: 30px;
+	width: 75px;
 }
 .dva {
 	/*flex-grow: 2;*/
-	flex-grow: 1;
 }
 .tri {
-	width: 50px;
+	width: 100px;
 }
 .ctyri {
-
-	width: 50px;
+	width: 100px;
 }
